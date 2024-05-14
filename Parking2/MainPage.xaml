@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parking.MainPage"
+             xmlns:local="clr-namespace:Parking.CustomElements"
+             BackgroundColor="#FFFFFF">
+
+    <VerticalStackLayout BackgroundColor="#FFFFFF">
+        <Label FontSize="35"
+               Text="Регистрация"
+               FontFamily="Montsserat-Medium"
+               HorizontalOptions="Center"
+               TextColor="#000000"
+               Padding="0, 18, 0, 0"/>
+        <Label FontSize="20"
+                Text="Для регистрации (входа в аккаунт) необходимы данные о ваших государственных регистрационных номерах."
+                FontFamily="Montsserat-Medium"
+                HorizontalOptions="Center"
+                TextColor="#000000"
+                Padding="26, 20, 0, 0 "/>
+        <Label FontSize="16"
+                Text="Я подтверждаю, что согласен на обработку персональных данных."
+                FontFamily="Montsserat-Light"
+                HorizontalOptions="Center"
+                TextColor="#777676"
+                Padding="26, 0, 0, 0"
+                />
+        <Image Source="car.png"
+               Margin="0, 40, 0, 0"/>
+        <Label FontSize="12"
+                Text="Номер машины"
+                FontFamily="Montsserat-Medium"
+                HorizontalOptions="Start"
+                TextColor="#000000"
+                Padding="26, 71.5, 0, 0"/>
+
+        <StackLayout HorizontalOptions="Start"
+                     Margin="26, -10, 0, 0">
+            <StackLayout Orientation="Horizontal">
+                <local:CustomEntry 
+                    x:Name="CarNumber"
+                               TextColor="black"
+                               FontSize="22"
+                               FontFamily="Montsserat-Medium"
+                               WidthRequest="320"
+                               MaxLength="8"
+                    Margin="-3,0,0,0"/>
+                <Button Text="?" 
+                        FontFamily="Montsserat-Medium"
+                        FontSize="22"
+                        BackgroundColor="Transparent"
+                        Padding="35,0,0,0"
+                        Clicked="OnCarnumberQuest"
+                       />
+            </StackLayout>
+            <BoxView HeightRequest="3" BackgroundColor="Black" WidthRequest="365" Margin="0, -13, 0, 0"/>
+        </StackLayout>
+
+        <Label FontSize="12"
+            Text="ФИО"
+            FontFamily="Montsserat-Medium"
+            HorizontalOptions="Start"
+            TextColor="#000000"
+            Padding="26, 10, 0, 0"/>
+
+        <StackLayout HorizontalOptions="Start"
+                     Margin="26, -10, 0, 0">
+            <StackLayout Orientation="Horizontal">
+                <local:CustomEntry 
+                        x:Name="FIO"
+                       TextColor="black"
+                       FontSize="22"
+                       FontFamily="Montsserat-Medium"
+                       WidthRequest="320"
+                       Margin="-3,0,0,0"
+                       />
+                <Button Text="?" 
+                    FontFamily="Montsserat-Medium"
+                    FontSize="22"
+                    BackgroundColor="Transparent"
+                    Padding="35,0,0,0"
+                    Clicked="OnFIOQuest"
+                   />
+            </StackLayout>
+            <BoxView HeightRequest="3" BackgroundColor="Black" WidthRequest="365" Margin="0, -13, 0, 0"/>
+        </StackLayout>
+
+        <Label FontSize="12"
+    Text="Пароль"
+        FontFamily="Montsserat-Medium"
+        HorizontalOptions="Start"
+        TextColor="#000000"
+        Padding="26, 10, 0, 0"/>
+
+        <StackLayout HorizontalOptions="Start"
+             Margin="26, -10, 0, 0">
+            <local:CustomEntry 
+               x:Name="Password"
+               TextColor="black"
+               FontSize="22"
+               FontFamily="Montsserat-Medium"
+               IsPassword="True"
+               Margin="-3,0,0,0"
+               />
+                <BoxView HeightRequest="3" BackgroundColor="Black" WidthRequest="365" Margin="0, -13, 0, 0"/>
+        </StackLayout>
+
+        <Label FontSize="12"
+            Text="Повторите пароль"
+            FontFamily="Montsserat-Medium"
+            HorizontalOptions="Start"
+            TextColor="#000000"
+            Padding="26, 10, 0, 0"/>
+
+        <StackLayout HorizontalOptions="Start"
+                     Margin="26, -10, 0, 0">
+            <local:CustomEntry 
+                x:Name="SecondPassword"
+               TextColor="black"
+               FontSize="22"
+               FontFamily="Montsserat-Medium"
+               IsPassword="True"
+               Margin="-3,0,0,0"
+            />
+            <BoxView HeightRequest="3" BackgroundColor="Black" WidthRequest="365" Margin="0, -13, 0, 0"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="0, -20, 0, 0">
+            <Label FontSize="12"
+                   Text="Даю своё согласие на обработку персональных данных"
+                   FontFamily="Montsserat-Medium"
+                   TextColor="#000000"
+                   VerticalOptions="Center"
+                   Padding="26, 18, 0, 0"/>
+            <Switch Margin="0, 20, 0, 0"
+                    ThumbColor="Black"
+                    OnColor="Gray"
+                    x:Name="Agree"
+                     Toggled="OnToggeled"
+                    />
+        </StackLayout>
+
+        <Button WidthRequest="286"
+                HorizontalOptions="Center"
+                Text="Зарегистрироваться"
+                TextColor="White"
+                BackgroundColor="Black"
+                CornerRadius="7"
+                Clicked="RegistrationClick"/>
+
+        <Button FontSize="12"
+                Text="Аккаунт уже есть"
+                FontFamily="Montsserat-Medium"
+                HorizontalOptions="Center"
+                TextColor="#808080"
+                Padding="0, 3, 0, 0"
+                HeightRequest="20"
+                BackgroundColor="Transparent"
+                
+            />
+        <Label FontSize="12"
+                Text="Повторите пароль"
+                FontFamily="Montsserat-Medium"
+                HorizontalOptions="Center"
+                Padding="0, 12, 0, 0"
+                TextColor="Red"
+                IsVisible="False"
+                x:Name="ErrorLabel"/>
+
+
+
+
+    </VerticalStackLayout>
+
+</ContentPage>

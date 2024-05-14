@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|d:\\vsc codes\\parking \u2014 \u043A\u043E\u043F\u0438\u044F\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\customelements\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:customelements\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\customelements\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:customelements\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DFB57A-2393-43E4-8143-DD998CC133A9}|Parking.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "database.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\CustomElements\\database.cs",
+              "RelativeDocumentMoniker": "CustomElements\\database.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\CustomElements\\database.cs",
+              "RelativeToolTip": "CustomElements\\database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:44:32.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:56:00.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:55:43.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\CustomElements\\Entry.cs",
+              "RelativeDocumentMoniker": "CustomElements\\Entry.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\CustomElements\\Entry.cs",
+              "RelativeToolTip": "CustomElements\\Entry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:03:42.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:03:56.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:22:58.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:20:04.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\VSC codes\\Parking \u2014 \u043A\u043E\u043F\u0438\u044F\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAIkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-12T13:03:42.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
